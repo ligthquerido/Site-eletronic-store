@@ -5,19 +5,25 @@ header {
 
 .cabecalho {
     color: white;
-    margin: center;
+    margin: left 660px;
+    text-align: center;
+    display: flex;
 }
 
 .cabecalho-lista-1 {
     color:white;
-    margin-left: 40px;/* alinhamento á esquerda*/
+    margin-left: 260px;/* alinhamento á esquerda*/
     padding: 20px; /* espaçamento á vertical*/
+    display:inline-block;
+    justify-content:center
 }
 
 .cabecalho-lista-2{
     color: white;
-    margin-left: 40px;
+    margin-left: 260px;
     padding: 20px;
+    display:inline-block;
+    justify-content:center
 }
 
 body {
@@ -28,6 +34,7 @@ body {
  .título-2{
     color: black;
     justify-content: center;
+    display:flex;
  }
 
  .paragrafo-1{
